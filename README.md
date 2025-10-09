@@ -8,14 +8,21 @@ We present the extended GigaMIDI dataset, a large-scale symbolic music collectio
 
 ## GigaMIDI Dataset Version Update 
 
-We present the extended GigaMIDI dataset (select v1.1.0), a large-scale symbolic music collection comprising over 2.1 million unique MIDI files with detailed annotations for music loop detection. Expanding on its predecessor, this release introduces a novel expressive loop detection method that captures performance nuances such as microtiming and dynamic variation, essential for advanced generative music modelling. Our method extends previous approaches, which were limited to strictly quantized, non-expressive tracks, by employing the Note Onset Median Metric Level (NOMML) heuristic to distinguish expressive from non-expressive material. This enables robust loop detection across a broader spectrum of MIDI data. Our loop detection method reveals more than 9.2 million non-expressive loops spanning all General MIDI instruments, alongside 2.3 million expressive loops identified through our new method. As the largest resource of its kind, the extended GigaMIDI dataset provides a strong foundation for developing models that synthesize structurally coherent and expressively rich musical loops. As a use case, we leverage this dataset to train an expressive multitrack symbolic music loop generation model using the MIDI-GPT system, resulting in the creation of a synthetic loop dataset. The GigaMIDI dataset is accessible for research purposes on the Hugging Face hub [https://huggingface.co/datasets/Metacreation/GigaMIDI] in a user-friendly way for convenience and reproducibility. 
+We present the extended GigaMIDI dataset (select v2.0.0), a large-scale symbolic music collection comprising over 2.1 million unique MIDI files with detailed annotations for music loop detection. Expanding on its predecessor, this release introduces a novel expressive loop detection method that captures performance nuances such as microtiming and dynamic variation, essential for advanced generative music modelling. Our method extends previous approaches, which were limited to strictly quantized, non-expressive tracks, by employing the Note Onset Median Metric Level (NOMML) heuristic to distinguish expressive from non-expressive material. This enables robust loop detection across a broader spectrum of MIDI data. Our loop detection method reveals more than 9.2 million non-expressive loops spanning all General MIDI instruments, alongside 2.3 million expressive loops identified through our new method. As the largest resource of its kind, the extended GigaMIDI dataset provides a strong foundation for developing models that synthesize structurally coherent and expressively rich musical loops. As a use case, we leverage this dataset to train an expressive multitrack symbolic music loop generation model using the MIDI-GPT system, resulting in the creation of a synthetic loop dataset. The GigaMIDI dataset is accessible for research purposes on the Hugging Face hub [https://huggingface.co/datasets/Metacreation/GigaMIDI] in a user-friendly way for convenience and reproducibility. 
 
 
 For the Hugging Face Hub dataset release, we disclaim any responsibility for the misuse of this dataset.
-The subset version `v1.1.0` refers specifically to the extended GigaMIDI dataset, while version `v1.0.0` denotes the original GigaMIDI dataset (see [Lee et al., 2025](https://doi.org/10.5334/tismir.203)).
+The subset version `v2.0.0` refers specifically to the extended GigaMIDI dataset, while version `v2.0.0` denotes the original GigaMIDI dataset (see [Lee et al., 2025](https://doi.org/10.5334/tismir.203)).
 New users must request access via our Hugging Face Hub page before retrieving the dataset from the following link:
-[https://huggingface.co/datasets/Metacreation/GigaMIDI/viewer/v1.1.0](https://huggingface.co/datasets/Metacreation/GigaMIDI/viewer/v1.1.0)
+[https://huggingface.co/datasets/Metacreation/GigaMIDI/viewer/v1.1.0](https://huggingface.co/datasets/Metacreation/GigaMIDI/viewer/v2.0.0)
 
+### Dataset Curators
+
+Main curator: Keon Ju Maverick Lee 
+
+Assistance: Jeff Ens, Sara Adkins, Nathan Fradet, Pedro Sarmento, Mathieu Barthet, Phillip Long, Paul Triana
+
+Research Director: Philippe Pasquier
 
 ### Citation/Reference
 
